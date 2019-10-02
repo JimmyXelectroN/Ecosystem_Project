@@ -1,3 +1,1 @@
-# Ecosystem_Project
-A Computer Simulated Ecosystem.
-
+#A Computer Simulated Ecosystem
