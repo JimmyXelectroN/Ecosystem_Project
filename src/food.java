@@ -17,7 +17,8 @@ public class food {
 		a.ellipse(location.x, location.y, 3, 3);
 	}
 	
-	public boolean collision(ArrayList<Creature> creatures) {
+	public boolean collision(MutasaurusSystem creature) {
+		ArrayList<Creature> creatures = creature.getCreatures();
 		for(Creature a: creatures) {
 			PVector l = a.getLocation();
 			float size = a.getSize() - 4;
